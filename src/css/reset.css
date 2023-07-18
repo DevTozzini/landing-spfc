@@ -1,0 +1,17 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+:root {
+
+    --primary: #eb1c1c;
+    --secondary: #95989a;
+    --text-color: #ffffff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+}
+

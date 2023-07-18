@@ -1,0 +1,170 @@
+@media (max-width: 440px) {
+
+    .btn {
+
+        opacity: 1;
+    }
+
+    /* Event form */
+
+    #event-description {
+
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    #disclaimer {
+
+        padding: 2em;
+    }
+
+    #disclaimer h2 {
+
+        margin-bottom: .5em;
+        text-align: center;
+
+    }
+
+    #subscription-form {
+
+        max-width: 70%;
+        margin-bottom: 2em;
+    }
+
+    /* Benefits section */
+
+    .benefits {
+
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+
+    .benefit {
+
+        max-width: 100%;
+        margin-bottom: 2em;
+    }
+
+    /* event location */
+
+    #location {
+
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #address {
+
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #address i {
+
+        margin: 0.3em 0;
+    }
+
+    #about-location {
+
+        order: 1;
+        max-width: 100%;
+    }
+
+    #about-location h3 {
+
+        margin-bottom: 0;
+
+    }
+
+    #about-location p {
+
+        display: none;
+    }
+
+    /* Event details container */
+
+    .detail {
+
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+        font-size: 1em;
+    }
+
+    .detail img {
+
+
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img {
+
+        display: none;
+    }
+
+    .detail-description {
+
+        padding: 0;
+        font-size: 0.6em;
+    }
+
+    #detail-3 img {
+
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+
+        order: 1;
+    }
+
+    /* call to action section */
+
+    #cta {
+
+        text-align: center;
+    }
+
+    #cta .btn {
+
+        width: 80%;
+    }
+
+
+    .promo {
+
+        background-color: rgb(255, 247, 0, 0.2);
+        width: 20em;
+        text-align: center;
+        padding: 1em;
+        border-radius: 70em;
+        color: black;
+        font-weight: bolder;
+
+    }
+
+    #disclaimer h2,
+    #disclaimer .plano2 {
+
+        color: var(--text-color);
+        font-size: 2em;
+
+    }
+
+    #disclaimer .promo .plano2 sub {
+
+        font-size: 0.3em;
+    }
+
+    #disclaimer .about-event{
+
+        font-size: 1em;
+    }
+}
